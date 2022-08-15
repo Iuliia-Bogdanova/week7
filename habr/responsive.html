@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+   <style>
+
+.header {
+    text-align: center;
+    font-size: 18pt;  
+    background-color: lightgray;
+    padding: 15px;
+}
+
+.container {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-rows: repeat(2, 200px);
+}
+
+.container > div > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+</style>
+
+</head>
+<body>
+    <div class="header">
+        Делаем адаптивный HTML, добавляя одну строку в CSS
+    </div>
+
+    <div class="container">        
+        <div><img src="laszlo-glatz-BfO7l70tqU0-unsplash_11zon.jpg";></div>
+        <div><img src="diego-ph-vTitvl4O2kE-unsplash_11zon.jpg";></div>
+        <div><img src="cullan-smith-BdTtvBRhOng-unsplash.jpg";></div>
+        <div><img src="mark-tegethoff-NbgQfUvKFE0-unsplash_11zon.jpg";></div>
+        <div><img src="z-s-CdlDVEY6pcU-unsplash_11zon.jpg";></div>
+        <div><img src="alex-machado-80sv993lUKI-unsplash_11zon.jpg";> </div>        
+    </div>
+    
+</body>
+</html>

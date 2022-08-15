@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .mein {
+            display: grid;
+            grid-template-columns: 5fr;
+            grid-template-rows: 12fr;
+            background-color: lightgray;
+        }
+
+        .menu {
+            grid-area: 1/1/13/2;
+            border-radius: 0 20px 20px 0;
+            border-color: white;
+        }
+
+        .logo {
+            grid-column: 1/2;
+            grid-row: 1/3;
+        }
+
+        .button1 {
+            grid-column: 1/2;
+            grid-row: 3/4;
+        }
+
+        .button2 {
+            grid-column: 1/2;
+            grid-row: 4/5;
+        }
+
+        .button3 {
+            grid-column: 1/2;
+            grid-row: 5/6;
+        }
+
+        .button4 {
+            grid-column: 1/2;
+            grid-row: 6/7;
+        }
+
+        .button5 {
+            grid-column: 1/2;
+            grid-row: 7/8;
+        }
+
+        .button6 {
+            grid-column: 1/2;
+            grid-row: 7/10;
+        }
+
+        .button7 {
+            grid-column: 1/2;
+            grid-row: 11/12;
+        }
+
+        .section {
+            grid-area: 1/2/13/6;
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <h1> layout </h1>
+    <div class="mein">
+        <mein class="menu">
+            <menu class="logo"> <img id="logo" src ="img/menu/Logo.svg" alt="logo">
+            <menu class="nav">
+                <nav class="button">
+                    <button class="button1"><img src="img/menu/dashboard.svg"></button> 
+                    <button class="button2"><img src="img/menu/invoice.svg"></button> 
+                    <button class="button3"><img src="img/menu/wallets.svg"></button> 
+                    <button class="button4"><img src="img/menu/reports.svg"></button> 
+                    <button class="button5"><img src="img/menu/transactions.svg"></button> 
+                    <button class="button6"><img src="img/menu/settings-help.svg"></button> 
+                    <button class="button7"><img src="img/menu/Log Out.svg"></button> 
+                </nav>
+            </menu>  
+            </menu>
+        </mein>
+        <main class="section"> 
+            <section class="block1"><img src="img/sections/Total Balance.svg"> </section>
+            <section class="block2"><img src="img/sections/report.svg"> </section>
+            <section class="block3"><img src="img/sections/income.svg"> </section>
+            <section class="block4"><img src="img/sections/saves.svg"> </section>
+            <section class="block5"><img src="img/sections/expense.svg"> </section>
+            <section class="block6"><img src="img/sections/upcoming.svg"> </section>
+            <section class="block7"><img src="img/sections/transactions.svg"> </section>
+            <section class="block8"><img src="img/sections/spending.svg"> </section>
+        </main>
+    </div>
+    
+</body>
+</html>
